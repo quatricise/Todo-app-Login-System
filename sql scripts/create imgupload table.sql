@@ -1,0 +1,14 @@
+USE img_upload;
+CREATE TABLE userdata (
+	userID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    firstname VARCHAR(256) NOT NULL,
+    lastname VARCHAR(256) NOT NULL,
+    username VARCHAR(256) NOT NULL,
+    password VARCHAR(256) NOT NULL
+);
+
+CREATE TABLE profileimg (
+	imageID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	userID INT NOT NULL,
+    stat INT NOT NULL
+);

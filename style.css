@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+}
+ul.navlinks {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+ul.navlinks li {
+  padding: 0 10px;
+}
